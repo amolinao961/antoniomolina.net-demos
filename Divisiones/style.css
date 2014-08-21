@@ -15,22 +15,26 @@ abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
-
-*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-body{margin:10px;}
-main[role="main"]{overflow: auto; padding: 10px; 
-		background-color: #ccc; display:inline-block;}
-.item1a,.item1b,.item2,.item3a,.item3b{
-	width:100px;
-	height:100px;
-	border:1px solid #000;
-	margin:5px;
-	color:#fff;
-	text-shadow:1px 1px 1px #333;
+/*
+* Estilos personalizados
+*/
+*{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+main[role="main"]{
+	margin:0px auto;
+	background: url(mobile.png) no-repeat;
+	padding: 43px 130px 30px 105px;
+	width:1160px;
 }
-.item1,.item2,.item3{float:left;}
-.item1a{background-color:red;}
-.item1b{background-color:blue;}
-.item2{background-color:green; margin-top:55px;}
-.item3a{background-color:yellow;}
-.item3b{background-color:purple;}
+.container{
+	background-color: #53AEE5;
+	width:100%;
+	height:520px;
+}
+.main h1{
+	font-family: 'Merienda One', cursive;
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	padding: 228px 0;
+	font-style: italic;
+}
